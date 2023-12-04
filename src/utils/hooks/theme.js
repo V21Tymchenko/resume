@@ -1,7 +1,12 @@
-// import { useMemo, useState } from "react";
+// import { useMemo, useState } from 'react';
 
 // export const UseTheme = () => {
-//     const [theme, setTheme] = useState("dark");
+//   const [theme, setTheme] = useState('dark');
 
-//     const changeTheme = useMemo(() => ({ toggleTheme: (prev) => prev === "dark" ? "light" : "dark" }), []);
-// }
+//   const changeTheme = useMemo(
+//     () => ({ toggleTheme: prev => (prev === 'dark' ? 'light' : 'dark') }),
+//     [],
+//   );
+
+//     return { theme, setTheme, changeTheme };
+// };

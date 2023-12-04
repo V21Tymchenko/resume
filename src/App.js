@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
 
-function App() {
+export const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -15,6 +15,4 @@ function App() {
       </Route>
     </Routes>
   );
-}
-
-export default App;
+};
