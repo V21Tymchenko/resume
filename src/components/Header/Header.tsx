@@ -20,6 +20,7 @@ const Header = () => {
       <a
         href="tg://resolve?domain=@valerytymchenko"
         target="_blank"
+        rel="noopener noreferrer"
         className={css.navigationIcon}
       >
         <span> Valeriia Tymchenko</span>
