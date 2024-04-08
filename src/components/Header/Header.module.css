@@ -6,7 +6,7 @@
 
   padding: 20px 0;
 }
-.navigationIcon {
+.headerIcon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,15 +20,33 @@
 
   background-color: transparent;
 }
-.navigationIcon > svg {
+.headerIcon > svg {
   width: 40px;
   height: 40px;
+}
+.headerLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 20px;
+
+  color: inherit;
 }
 
 .rotated {
   transform: rotate(90deg);
 }
-.languageContainer {
+.language {
   display: flex;
   gap: 10px;
+}
+.languageButton {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #121212;
 }

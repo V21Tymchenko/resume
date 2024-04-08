@@ -9,19 +9,23 @@ const Header = () => {
 
   return (
     <header className={css.header}>
-      <button type="button" onClick={toggle} className={css.navigationIcon}>
+      <button type="button" onClick={toggle} className={css.headerIcon}>
         <IoIosMore className={`${isOpen ? css.rotated : ""}`} />
         <span>Навігація сайтом</span>
       </button>
-      <div className={css.languageContainer}>
-        <button type="button">UK</button>
-        <button type="button">EN</button>
+      <div className={css.language}>
+        <button type="button" className={css.languageButton}>
+          UK
+        </button>
+        <button type="button" className={css.languageButton}>
+          EN
+        </button>
       </div>
       <a
         href="tg://resolve?domain=@valerytymchenko"
         target="_blank"
         rel="noopener noreferrer"
-        className={css.navigationIcon}
+        className={css.headerLink}
       >
         <span> Valeriia Tymchenko</span>
         <LiaTelegramPlane />
